@@ -73,23 +73,23 @@
          "channel": "DevOps",
          "attachments": [
         {
-            "title": "巡检时间:$DATE",
+            "title": "巡检时间:@DATE",
             "text": "
             
-     | Systems:   |  正常(`$SYS_PCT`%)  |  异常 `$SYS_EVAL` | 
-     | Usages:    |  正常(`$USG_PCT`%)   |   异常 `$USG_EVAL` | 
-     | Services:  |  正常(`$SVC_PCT`%)  |  异常 `$SVC_EVAL` |
-     | Networks:  |  正常(`$NET_PCT`%)   |   异常 `$NET_EVAL` |
-     | Securitys: |  正常(`$SEC_PCT`%)  |  异常 `$SEC_EVAL` |
+     | Systems:   |  正常(`@SYS_PCT`%)  |  异常 `@SYS_EVAL` | 
+     | Usages:    |  正常(`@USG_PCT`%)   |   异常 `@USG_EVAL` | 
+     | Services:  |  正常(`@SVC_PCT`%)  |  异常 `@SVC_EVAL` |
+     | Networks:  |  正常(`@NET_PCT`%)   |   异常 `@NET_EVAL` |
+     | Securitys: |  正常(`@SEC_PCT`%)  |  异常 `@SEC_EVAL` |
 
      * 异常代码
-       $ERR_CODE
+       @ERR_CODE
 
      * 巡检参考说明
        https://github.com/yuchangyang/syscheck/blob/master/README.md 
 
      ",
-           "color": "$COLOR",
+           "color": "@COLOR",
           }
       ]
      }'
