@@ -58,6 +58,6 @@
         `XXX-XXX-00050`
 
 * 巡检参考说明：
-   github site:
+   https://github.com/yuchangyang/syscheck/blob/master/README.md
 
 ------
